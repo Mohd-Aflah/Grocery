@@ -1,5 +1,4 @@
 import { useLanguage } from '@/contexts/LanguageContext';
-import interiorImage from '@/assets/interior-1.jpg';
 
 const About = () => {
   const { t } = useLanguage();
@@ -13,8 +12,8 @@ const About = () => {
           {/* Image */}
           <div className="rounded-xl overflow-hidden shadow-lg">
             <img 
-              src={interiorImage} 
-              alt="Inside Abdul Rasheed Grocery" 
+              src="/Contact.jpeg" 
+              alt="Abdul Rasheed Grocery" 
               className="w-full h-64 md:h-80 object-cover"
             />
           </div>

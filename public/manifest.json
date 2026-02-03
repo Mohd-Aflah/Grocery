@@ -1,0 +1,16 @@
+{
+  "name": "Abdul Rasheed Grocery",
+  "short_name": "AR Grocery",
+  "description": "Your trusted neighborhood grocery store in Sayh Mudayrah, Ajman, UAE",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#ffffff",
+  "icons": [
+    {
+      "src": "/Front.jpeg",
+      "sizes": "512x512",
+      "type": "image/jpeg"
+    }
+  ]
+}

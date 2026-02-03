@@ -1,5 +1,4 @@
 import { useLanguage } from '@/contexts/LanguageContext';
-import heroImage from '@/assets/hero-grocery.jpg';
 
 const Hero = () => {
   const { t } = useLanguage();
@@ -9,7 +8,7 @@ const Hero = () => {
       {/* Background Image */}
       <div 
         className="absolute inset-0 bg-cover bg-center"
-        style={{ backgroundImage: `url(${heroImage})` }}
+        style={{ backgroundImage: 'url(/Front.jpeg)' }}
       />
       
       {/* Overlay */}

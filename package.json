@@ -1,7 +1,32 @@
 {
-  "name": "vite_react_shadcn_ts",
-  "private": true,
-  "version": "0.0.0",
+  "name": "abdul-rasheed-grocery",
+  "private": false,
+  "version": "1.0.0",
+  "description": "Abdul Rasheed Grocery - Your trusted neighborhood grocery store in Sayh Mudayrah, Ajman, UAE",
+  "author": {
+    "name": "Mohammed Aflah",
+    "url": "https://github.com/Mohd-Aflah"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Mohd-Aflah/Abdul-Rasheed-Grocery.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Mohd-Aflah/Abdul-Rasheed-Grocery/issues"
+  },
+  "homepage": "https://grocery.pages.dev",
+  "keywords": [
+    "grocery",
+    "store",
+    "ajman",
+    "uae",
+    "abdul-rasheed",
+    "neighborhood-store",
+    "react",
+    "typescript",
+    "vite"
+  ],
   "type": "module",
   "scripts": {
     "dev": "vite",
