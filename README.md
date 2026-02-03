@@ -1,73 +1,183 @@
-# Welcome to your Lovable project
+# Abdul Rasheed Grocery | بقالة عبدالرشيد
 
-## Project info
+[![Live Site](https://img.shields.io/badge/Live-grocery.pages.dev-blue)](https://grocery.pages.dev)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)
+[![Made with React](https://img.shields.io/badge/Made%20with-React-61DAFB?logo=react)](https://reactjs.org/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+> Your trusted neighborhood grocery store in Sayh Mudayrah, Ajman, UAE 🛒
 
-## How can I edit this code?
+## 🌟 About
 
-There are several ways of editing your application.
+Abdul Rasheed Grocery is a family-owned neighborhood grocery store serving the community of Sayh Mudayrah in Ajman, UAE. We pride ourselves on providing:
 
-**Use Lovable**
+- ✨ Fresh groceries and daily essentials
+- 🥤 Wide selection of beverages and snacks
+- 🏠 Household items and personal care products
+- 💰 Honest pricing and quality service
+- 🕒 Convenient location and operating hours
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+This website showcases our store and makes it easy for customers to find us, view our product categories, and get in touch.
 
-Changes made via Lovable will be committed automatically to this repo.
+## 🚀 Live Demo
 
-**Use your preferred IDE**
+Visit the live website: [grocery.pages.dev](https://grocery.pages.dev)
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## 📸 Screenshots
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+![Store Front](/public/Front.jpeg)
 
-Follow these steps:
+## 🛠️ Built With
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+- **[React](https://reactjs.org/)** - UI library
+- **[TypeScript](https://www.typescriptlang.org/)** - Type safety
+- **[Vite](https://vitejs.dev/)** - Build tool
+- **[Tailwind CSS](https://tailwindcss.com/)** - Styling
+- **[shadcn/ui](https://ui.shadcn.com/)** - UI components
+- **[Lucide React](https://lucide.dev/)** - Icons
+- **[React Router](https://reactrouter.com/)** - Routing
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+## ✨ Features
 
-# Step 3: Install the necessary dependencies.
-npm i
+- 🌍 **Bilingual Support**: English and Arabic (عربي)
+- 🌓 **Dark/Light Mode**: Toggle between themes
+- 📱 **Responsive Design**: Works on all devices
+- 🗺️ **Interactive Map**: Find us easily with embedded Google Maps
+- 📞 **Quick Contact**: WhatsApp and call buttons for easy communication
+- ⚡ **Fast Performance**: Built with Vite for optimal speed
+- ♿ **Accessible**: Following web accessibility standards
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+## 🚀 Getting Started
+
+### Prerequisites
+
+- [Node.js](https://nodejs.org/) (v18 or higher)
+- npm or [Bun](https://bun.sh/)
+
+### Installation
+
+1. Clone the repository:
+```bash
+git clone https://github.com/Mohd-Aflah/Abdul-Rasheed-Grocery.git
+cd Abdul-Rasheed-Grocery
 ```
 
-**Edit a file directly in GitHub**
+2. Install dependencies:
+```bash
+npm install
+# or
+bun install
+```
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+3. Start the development server:
+```bash
+npm run dev
+# or
+bun run dev
+```
 
-**Use GitHub Codespaces**
+4. Open [http://localhost:5173](http://localhost:5173) in your browser
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+### Building for Production
 
-## What technologies are used for this project?
+```bash
+npm run build
+# or
+bun run build
+```
 
-This project is built with:
+The built files will be in the `dist` directory.
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+### Preview Production Build
 
-## How can I deploy this project?
+```bash
+npm run preview
+# or
+bun run preview
+```
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+## 📁 Project Structure
 
-## Can I connect a custom domain to my Lovable project?
+```
+Abdul-Rasheed-Grocery/
+├── public/              # Static assets
+│   ├── Front.jpeg      # Store front image
+│   ├── Contact.jpeg    # Contact image
+│   └── shop/           # Product images
+├── src/
+│   ├── components/     # React components
+│   │   ├── ui/        # shadcn/ui components
+│   │   ├── Header.tsx
+│   │   ├── Hero.tsx
+│   │   ├── About.tsx
+│   │   ├── Products.tsx
+│   │   ├── Location.tsx
+│   │   └── Footer.tsx
+│   ├── contexts/      # React contexts
+│   │   ├── LanguageContext.tsx
+│   │   └── ThemeContext.tsx
+│   ├── pages/         # Page components
+│   ├── lib/           # Utilities
+│   └── main.tsx       # Entry point
+├── index.html
+├── package.json
+└── vite.config.ts
+```
 
-Yes, you can!
+## 🧪 Testing
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+```bash
+npm run test
+# or
+bun run test
+```
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+For watch mode:
+```bash
+npm run test:watch
+# or
+bun run test:watch
+```
+
+## 🤝 Contributing
+
+Contributions are welcome! 
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+## 📧 Contact
+
+**Abdul Rasheed Grocery**
+- 📍 Address: Sayh Mudayrah, Ajman, UAE
+- 📞 Phone: [Contact via website](https://grocery.pages.dev)
+- 💬 WhatsApp: [Available on website](https://grocery.pages.dev)
+
+**Developer**
+- Created by: **Mohammed Aflah**
+- GitHub: [@Mohd-Aflah](https://github.com/Mohd-Aflah)
+
+## 📝 License
+
+This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.
+
+## 🙏 Acknowledgments
+
+- Built with [Lovable](https://lovable.dev) - AI-powered development platform
+- UI components from [shadcn/ui](https://ui.shadcn.com/)
+- Icons from [Lucide](https://lucide.dev/)
+- The wonderful community of Sayh Mudayrah, Ajman
+
+## 📊 Stats
+
+![GitHub stars](https://img.shields.io/github/stars/Mohd-Aflah/Abdul-Rasheed-Grocery?style=social)
+![GitHub forks](https://img.shields.io/github/forks/Mohd-Aflah/Abdul-Rasheed-Grocery?style=social)
+
+---
+
+<div align="center">
+Made with ❤️ by Mohammed Aflah | © 2026 Abdul Rasheed Grocery
+</div>

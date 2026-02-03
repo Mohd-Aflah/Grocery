@@ -32,6 +32,10 @@ const translations: Record<Language, Record<string, string>> = {
     'category.snacks': 'Snacks',
     'category.household': 'Household Items',
     
+    // Gallery
+    'gallery.title': 'Inside Our Store',
+    'gallery.swipe': 'Swipe or click arrows to browse',
+    
     // Location
     'location.title': 'Visit Us',
     'location.address': 'Masfoot, Sheikh Khalifa Hospital A2, Sayh Mudayrah, Ajman, UAE',
@@ -65,6 +69,10 @@ const translations: Record<Language, Record<string, string>> = {
     'category.beverages': 'المشروبات',
     'category.snacks': 'الوجبات الخفيفة',
     'category.household': 'مستلزمات المنزل',
+    
+    // Gallery
+    'gallery.title': 'داخل متجرنا',
+    'gallery.swipe': 'اسحب أو اضغط على الأسهم للتصفح',
     
     // Location
     'location.title': 'زورونا',

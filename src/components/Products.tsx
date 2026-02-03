@@ -1,23 +1,17 @@
 import { useLanguage } from '@/contexts/LanguageContext';
 
-// Import category images
-import personalImage from '@/assets/category-personal.jpg';
-import pantryImage from '@/assets/category-pantry.jpg';
-import beveragesImage from '@/assets/category-beverages.jpg';
-import snacksImage from '@/assets/category-snacks.jpg';
-import householdImage from '@/assets/category-household.jpg';
-
 interface Category {
   key: string;
   image: string;
 }
 
+// Using shop images for category display
 const categories: Category[] = [
-  { key: 'category.personal', image: personalImage },
-  { key: 'category.pantry', image: pantryImage },
-  { key: 'category.beverages', image: beveragesImage },
-  { key: 'category.snacks', image: snacksImage },
-  { key: 'category.household', image: householdImage },
+  { key: 'category.personal', image: '/shop/WhatsApp Image 2026-02-03 at 8.07.03 PM.jpeg' },
+  { key: 'category.pantry', image: '/shop/WhatsApp Image 2026-02-03 at 8.07.04 PM.jpeg' },
+  { key: 'category.beverages', image: '/shop/WhatsApp Image 2026-02-03 at 8.07.05 PM.jpeg' },
+  { key: 'category.snacks', image: '/shop/WhatsApp Image 2026-02-03 at 8.07.06 PM.jpeg' },
+  { key: 'category.household', image: '/shop/WhatsApp Image 2026-02-03 at 8.07.07 PM.jpeg' },
 ];
 
 const Products = () => {
