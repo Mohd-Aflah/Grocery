@@ -4,7 +4,7 @@ Thank you for visiting! 🛒
 
 ## Quick Links
 
-- 🌐 **Website**: [grocery.pages.dev](https://grocery.pages.dev)
+- 🌐 **Website**: [argrocery.pages.dev](https://argrocery.pages.dev)
 - 📖 **Documentation**: [README.md](./README.md)
 - 🤝 **Contributing**: [CONTRIBUTING.md](./CONTRIBUTING.md)
 - 📜 **License**: [MIT](./LICENSE)

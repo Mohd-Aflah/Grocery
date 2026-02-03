@@ -1,6 +1,6 @@
 # Abdul Rasheed Grocery | بقالة عبدالرشيد
 
-[![Live Site](https://img.shields.io/badge/Live-grocery.pages.dev-blue)](https://grocery.pages.dev)
+[![Live Site](https://img.shields.io/badge/Live-argrocery.pages.dev-blue)](https://argrocery.pages.dev)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)
 [![Made with React](https://img.shields.io/badge/Made%20with-React-61DAFB?logo=react)](https://reactjs.org/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
@@ -21,7 +21,7 @@ This website showcases our store and makes it easy for customers to find us, vie
 
 ## 🚀 Live Demo
 
-Visit the live website: [grocery.pages.dev](https://grocery.pages.dev)
+Visit the live website: [argrocery.pages.dev](https://argrocery.pages.dev)
 
 ## 📸 Screenshots
 
@@ -153,8 +153,8 @@ Contributions are welcome!
 
 **Abdul Rasheed Grocery**
 - 📍 Address: Sayh Mudayrah, Ajman, UAE
-- 📞 Phone: [Contact via website](https://grocery.pages.dev)
-- 💬 WhatsApp: [Available on website](https://grocery.pages.dev)
+- 📞 Phone: [Contact via website](https://argrocery.pages.dev)
+- 💬 WhatsApp: [Available on website](https://argrocery.pages.dev)
 
 **Developer**
 - Created by: **Mohammed Aflah**
