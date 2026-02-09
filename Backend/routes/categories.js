@@ -1,0 +1,17 @@
+import express from 'express';
+import { 
+  getAllCategories, 
+  createCategory,
+  updateCategory, 
+  deleteCategory 
+} from '../controllers/categoriesController.js';
+
+const router = express.Router();
+
+// All routes (no auth required)
+router.get('/', getAllCategories);
+router.post('/', createCategory);
+router.put('/:id', updateCategory);
+router.delete('/:id', deleteCategory);
+
+export default router;
