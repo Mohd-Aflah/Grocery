@@ -1,3 +1,10 @@
+# Environment Variables
+.env
+.env.local
+.env.*.local
+.env.production
+.env.development
+
 # Logs
 logs
 *.log
@@ -7,16 +14,27 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
+# Dependencies
 node_modules
+
+# Build
 dist
 dist-ssr
 *.local
 
-# Lock files - using npm without lockfile for Cloudflare Pages
+# Lock files
 package-lock.json
 yarn.lock
 pnpm-lock.yaml
 bun.lockb
+
+# Backend
+Backend/uploads/
+Backend/node_modules/
+
+# Frontend
+Frontend/dist/
+Frontend/node_modules/
 
 # Editor directories and files
 .vscode/*
